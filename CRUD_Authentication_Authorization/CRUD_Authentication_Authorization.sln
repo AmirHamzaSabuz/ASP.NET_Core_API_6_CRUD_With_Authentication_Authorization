@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Authentication_Authorization.Models", "CRUD_Authentication_Authorization.Models\CRUD_Authentication_Authorization.Models.csproj", "{B446E2C3-F256-40B4-8B66-189CE8360908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Authentication_Authorization.Models", "CRUD_Authentication_Authorization.Models\CRUD_Authentication_Authorization.Models.csproj", "{B446E2C3-F256-40B4-8B66-189CE8360908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Authentication_Authorization.DAL", "CRUD_Authentication_Authorization.DAL\CRUD_Authentication_Authorization.DAL.csproj", "{F9EBCBE1-451E-41BB-B0E0-AC1958EC1FCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B446E2C3-F256-40B4-8B66-189CE8360908}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B446E2C3-F256-40B4-8B66-189CE8360908}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B446E2C3-F256-40B4-8B66-189CE8360908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EBCBE1-451E-41BB-B0E0-AC1958EC1FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EBCBE1-451E-41BB-B0E0-AC1958EC1FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EBCBE1-451E-41BB-B0E0-AC1958EC1FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EBCBE1-451E-41BB-B0E0-AC1958EC1FCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
